@@ -31,7 +31,7 @@ try {
         $stmt->execute([$marca, $modelo, $ano, $id]);
 
         echo "Veículo atualizado com sucesso!";
-        echo "<br><a href='mostrar.php'>Voltar</a>";
+        echo "<br><a href='ver.php'>Voltar</a>";
         exit;
     }
 

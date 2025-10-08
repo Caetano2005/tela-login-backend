@@ -14,6 +14,6 @@ $sql = "DELETE FROM veiculos WHERE id=$id";
 $executar = $pdo->query($sql);
 $executar->execute();
 
-header("location: mostrar.php");
+header("location: ver.php");
 
 ?>

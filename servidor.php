@@ -39,20 +39,6 @@ try{
 
     }
 	
-    /*EXIBIR DADOS DO BANCO AQUI
-    $sql = "SELECT * FROM veiculos ORDER BY id DESC";
-    $executar = $pdo->query($sql);
-    
-    $veiculos = $executar->fetchAll();
-    
-    foreach($veiculos as $veiculo){
-	
-	$id = $veiculo["id"];
-
-	print($id."<br>".$veiculo["marca"] . " " . $veiculo["modelo"] . " " . $veiculo["ano"] . " <a href='javascript:void(0)' onClick='deletar($id)'>Excluir</a>");
-
-	print("<br> <hr> <br>");
-    }*/
     
 }catch(PDOException $e){
     die("ERRO: ". $e->getMessage());
