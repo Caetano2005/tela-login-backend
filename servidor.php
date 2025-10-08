@@ -15,6 +15,8 @@ $ano = $_POST["ano"];
 print("A marca digital foi: " . $marca . "<br>");
 print("O modelo digital foi: " . $modelo . "<br>");
 print("O ano digital foi: " . $ano . "<br>");
+echo "<br><a href='cadastrar.php'>Novo Cadastro</a>";
+echo "<br><a href='cliente.php'>Ver Veiculos</a>";
 
 //Criar conexao com o MySQL/MariaDB
 $servidor = "127.0.0.1"; // ou localhost
